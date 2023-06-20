@@ -3,7 +3,7 @@ const multer = require('multer');
 const fs = require('fs');
 const winston = require('winston');
 
-const port = 8050;
+const port = 8000;
 const app = express();
 const { exec } = require('child_process');
 
